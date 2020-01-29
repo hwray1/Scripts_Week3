@@ -9,13 +9,13 @@
     - Everything has three types of permissions
         - Read
         - Write
-        - Execute
+        - Execute: most files you do not want to execute, but do want to execute the script
     - And three groups whose permissions can be controlled
         - Owner
         - Group
         - Others
 - [Wikipedia on Unix Permissions](https://en.wikipedia.org/wiki/File_system_permissions#Notation_of_traditional_Unix_permissions)
-- la - list with hidden files
+- la - list with hidden files: ls -a will do this, shows all files, including hidden
 - `cd` - change directory
     - will accept absolute or relative paths
 - `chmod` - change permissions - specify who (ugo), how (+ or -), and what (rwx)
